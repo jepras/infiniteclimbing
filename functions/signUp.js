@@ -1,5 +1,5 @@
 /* eslint-disable  */
-const axios = require("axios");
+import axios from "axios";
 require("dotenv").config();
 
 exports.handler = function signUp(event, context, callback) {

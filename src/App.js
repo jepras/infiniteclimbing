@@ -105,7 +105,7 @@ class App extends Component {
                 health by making climbing captivating and accessible for all
               </p>
             </div>
-            <div className="header-39__buttons">
+            <div className="header-39__buttons" style={{ "margin-top": "0px" }}>
               <div className="buttons-set">
                 <div id="mc_embed_signup">
                   <form
@@ -118,9 +118,6 @@ class App extends Component {
                     novalidate
                   >
                     <div id="mc_embed_signup_scroll">
-                      <label for="mce-EMAIL">
-                        Subscribe to our mailing list
-                      </label>
                       <input
                         type="email"
                         value=""
@@ -128,6 +125,7 @@ class App extends Component {
                         class="email"
                         id="mce-EMAIL"
                         placeholder="email address"
+                        style={{ height: "52px" }}
                         required
                       />
                       <div
@@ -140,31 +138,41 @@ class App extends Component {
                           tabindex="-1"
                           value=""
                         />
-                      </div>
+                      </div>{" "}
                       <div class="clear">
-                        <input
-                          type="submit"
-                          value="Subscribe"
-                          name="subscribe"
-                          id="mc-embedded-subscribe"
-                          class="button"
-                        />
+                        <ul className="buttons-set__list">
+                          <li className="buttons-set__item">
+                            <a
+                              className="button   button--accent-bg  button--large "
+                              href="/"
+                              target=""
+                              name="subscribe"
+                              id="mc-embedded-subscribe"
+                              type="submit"
+                              style={{
+                                "background-color": "#4D61FC",
+                                padding: "10px"
+                              }}
+                            >
+                              <span>Keep me updated!</span>
+                            </a>
+                          </li>
+                        </ul>
+                        {/* <ul className="buttons-set__list">
+                          <li className="buttons-set__item">
+                            <input
+                              type="submit"
+                              value="Keep me updated!"
+                              name="subscribe"
+                              id="mc-embedded-subscribe"
+                              className="button button--accent-bg button--large"
+                            />
+                          </li>
+                        </ul> */}
                       </div>
                     </div>
                   </form>
                 </div>
-
-                <ul className="buttons-set__list">
-                  <li className="buttons-set__item">
-                    <a
-                      className="button   button--accent-bg  button--large "
-                      href="/"
-                      target=""
-                    >
-                      <span>Keep me updated!</span>
-                    </a>
-                  </li>
-                </ul>
               </div>
             </div>
             <div className="header-39__video" id="youtube">
