@@ -108,7 +108,9 @@ class App extends Component {
             <div className="header-39__buttons" style={{ "margin-top": "0px" }}>
               <div className="buttons-set">
                 <div id="mc_embed_signup">
-                  <form name="mailchimp" method="POST" data-netlify="true">
+                  <form name="mailchimp" method="POST">
+                    <input type="hidden" name="form-name" value="mailchimp" />
+
                     <input
                       type="email"
                       name="name"
