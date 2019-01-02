@@ -20,7 +20,7 @@ class App extends Component {
                   >
                     <img
                       className="nav-02__logo_img"
-                      src="img/other/unicorn-logo.png"
+                      src="favicon-32x32.png"
                       alt="Logo"
                     />
                     {/* <!--Or uncomment this <span> to have a word-logo.-->
@@ -107,6 +107,53 @@ class App extends Component {
             </div>
             <div className="header-39__buttons">
               <div className="buttons-set">
+                <div id="mc_embed_signup">
+                  <form
+                    action="https://jepras.us14.list-manage.com/subscribe/post?u=671c8542725c29d88f8ea0ec8&amp;id=7b9368fc3c"
+                    method="post"
+                    id="mc-embedded-subscribe-form"
+                    name="mc-embedded-subscribe-form"
+                    class="validate"
+                    target="_blank"
+                    novalidate
+                  >
+                    <div id="mc_embed_signup_scroll">
+                      <label for="mce-EMAIL">
+                        Subscribe to our mailing list
+                      </label>
+                      <input
+                        type="email"
+                        value=""
+                        name="EMAIL"
+                        class="email"
+                        id="mce-EMAIL"
+                        placeholder="email address"
+                        required
+                      />
+                      <div
+                        style={{ position: "absolute", left: "-5000px" }}
+                        aria-hidden="true"
+                      >
+                        <input
+                          type="text"
+                          name="b_671c8542725c29d88f8ea0ec8_7b9368fc3c"
+                          tabindex="-1"
+                          value=""
+                        />
+                      </div>
+                      <div class="clear">
+                        <input
+                          type="submit"
+                          value="Subscribe"
+                          name="subscribe"
+                          id="mc-embedded-subscribe"
+                          class="button"
+                        />
+                      </div>
+                    </div>
+                  </form>
+                </div>
+
                 <ul className="buttons-set__list">
                   <li className="buttons-set__item">
                     <a
