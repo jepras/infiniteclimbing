@@ -113,7 +113,7 @@ class App extends Component {
 
                     <input
                       type="email"
-                      name="name"
+                      name="email"
                       className="email"
                       placeholder="email"
                       style={{ height: "52px" }}
