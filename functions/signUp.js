@@ -1,6 +1,5 @@
 /* eslint-disable  */
 import axios from "axios";
-require("dotenv").config();
 
 exports.handler = function signUp(event, context, callback) {
   const password = process.env.REACT_APP_MAILCHIMP_API_KEY;

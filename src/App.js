@@ -108,20 +108,12 @@ class App extends Component {
             <div className="header-39__buttons" style={{ "margin-top": "0px" }}>
               <div className="buttons-set">
                 <div id="mc_embed_signup">
-                  <form
-                    action="https://jepras.us14.list-manage.com/subscribe/post?u=671c8542725c29d88f8ea0ec8&amp;id=7b9368fc3c"
-                    method="post"
-                    id="mc-embedded-subscribe-form"
-                    name="mc-embedded-subscribe-form"
-                    class="validate"
-                    target="_blank"
-                    novalidate
-                  >
+                  <form name="mailchimp" method="post" data-netlify="true">
                     <div id="mc_embed_signup_scroll">
                       <input
                         type="email"
                         value=""
-                        name="EMAIL"
+                        name="email"
                         class="email"
                         id="mce-EMAIL"
                         placeholder="email address"
@@ -142,7 +134,7 @@ class App extends Component {
                       <div class="clear">
                         <ul className="buttons-set__list">
                           <li className="buttons-set__item">
-                            <a
+                            <button
                               className="button   button--accent-bg  button--large "
                               href="/"
                               target=""
@@ -155,7 +147,7 @@ class App extends Component {
                               }}
                             >
                               <span>Keep me updated!</span>
-                            </a>
+                            </button>
                           </li>
                         </ul>
                         {/* <ul className="buttons-set__list">
