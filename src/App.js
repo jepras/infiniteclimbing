@@ -108,61 +108,26 @@ class App extends Component {
             <div className="header-39__buttons" style={{ "margin-top": "0px" }}>
               <div className="buttons-set">
                 <div id="mc_embed_signup">
-                  <form name="mailchimp" method="post" data-netlify="true">
-                    <div id="mc_embed_signup_scroll">
-                      <input
-                        type="email"
-                        value=""
-                        name="email"
-                        class="email"
-                        id="mce-EMAIL"
-                        placeholder="email address"
-                        style={{ height: "52px" }}
-                        required
-                      />
-                      <div
-                        style={{ position: "absolute", left: "-5000px" }}
-                        aria-hidden="true"
-                      >
-                        <input
-                          type="text"
-                          name="b_671c8542725c29d88f8ea0ec8_7b9368fc3c"
-                          tabindex="-1"
-                          value=""
-                        />
-                      </div>{" "}
-                      <div class="clear">
-                        <ul className="buttons-set__list">
-                          <li className="buttons-set__item">
-                            <button
-                              className="button   button--accent-bg  button--large "
-                              href="/"
-                              target=""
-                              name="subscribe"
-                              id="mc-embedded-subscribe"
-                              type="submit"
-                              style={{
-                                "background-color": "#4D61FC",
-                                padding: "10px"
-                              }}
-                            >
-                              <span>Keep me updated!</span>
-                            </button>
-                          </li>
-                        </ul>
-                        {/* <ul className="buttons-set__list">
-                          <li className="buttons-set__item">
-                            <input
-                              type="submit"
-                              value="Keep me updated!"
-                              name="subscribe"
-                              id="mc-embedded-subscribe"
-                              className="button button--accent-bg button--large"
-                            />
-                          </li>
-                        </ul> */}
-                      </div>
-                    </div>
+                  <form name="mailchimp" method="POST" data-netlify="true">
+                    <input
+                      type="email"
+                      name="name"
+                      className="email"
+                      placeholder="email"
+                      style={{ height: "52px" }}
+                      required
+                    />
+
+                    <button
+                      type="submit"
+                      className="button   button--accent-bg  button--large "
+                      style={{
+                        "background-color": "#4D61FC",
+                        padding: "10px"
+                      }}
+                    >
+                      Send
+                    </button>
                   </form>
                 </div>
               </div>
