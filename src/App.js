@@ -102,7 +102,7 @@ class App extends Component {
               </h1>
 
               <h2 className="">
-                An Augmented Reality climbing game that support kids in their
+                An Augmented Reality climbing game that supports kids in their
                 rehabilitation.
               </h2>
               <p>
