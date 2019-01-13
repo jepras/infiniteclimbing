@@ -106,10 +106,9 @@ class App extends Component {
                 rehabilitation.
               </h2>
               <p>
-                We are creating a game that adds a digital layer with elements
-                for the kids to collect on real life climbing structures, so
-                they can do real exercise & regain their strength faster. All
-                while playing.
+                We are creating a game that adds digital elements for the kids
+                to collect on real life climbing structures, so they can do real
+                exercise & regain their strength faster. All while playing.
               </p>
             </div>
 
@@ -156,7 +155,7 @@ class App extends Component {
                     <strong>- Focus on recovery:</strong> Data of the kids
                     progress will be visible at all times. Extra data on
                     strength level can optionally be fed to assist
-                    physiotherapists supporting the kids recovery
+                    physiotherapists supporting the kids recovery.
                     <br />
                   </p>
                 </div>
@@ -188,6 +187,11 @@ class App extends Component {
               <p>
                 Thousands of kids are physically weakened due to sickness &
                 especially in their upper body. <br />
+                <br />
+                Currently kids are pushed to do push ups and sit with
+                uninspiring hand grippers to improve upper body strength. <br />
+                This can be made 10x more engaging if it was a natural fun
+                activity for the kids. Like climbing. <br />
                 <br />
                 Climbing is an excellent tool to help climbers gain strength,
                 improve cognitive functions & gain self-esteem. <br />
