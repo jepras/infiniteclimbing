@@ -106,9 +106,8 @@ class App extends Component {
                 rehabilitation.
               </h2>
               <p>
-                We are creating a game that adds digital elements for the kids
-                to collect on real life climbing structures, so they can do real
-                exercise & regain their strength faster. All while playing.
+                Infinite Climbing helps sick kids perform tedious excercises by
+                turning it into a game.
               </p>
             </div>
 
@@ -133,8 +132,9 @@ class App extends Component {
             <div className="title-box title-box--center">
               <h1>How does it work? </h1>
               <p>
-                Collect items in Augmented Reality while climbing on monkey
-                bars, wallbars or other climbing structures.
+                We are creating a game that adds digital elements for the kids
+                to collect on real life climbing structures, so they can do real
+                exercise & regain their strength faster. All while playing.
               </p>
             </div>
           </div>
