@@ -106,7 +106,7 @@ class App extends Component {
                 rehabilitation.
               </h2>
               <p>
-                Infinite Climbing helps sick kids perform tedious excercises by
+                Infinite Climbing helps sick kids perform tedious exercises by
                 turning it into a game.
               </p>
             </div>
