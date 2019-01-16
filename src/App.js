@@ -113,7 +113,7 @@ class App extends Component {
 
             <div className="header-39__video" id="youtube">
               <iframe
-                src="https://www.youtube.com/embed/pp-lkeAoXok"
+                src="https://www.youtube.com/embed/i1H5X_d0qYA"
                 frameBorder="0"
                 allow="autoplay; encrypted-media"
                 allowFullScreen=""
@@ -123,6 +123,63 @@ class App extends Component {
             </div>
           </div>
         </header>
+
+        {/* What is it section */}
+        <div className="features-02" id="features">
+          <div className="container container--small">
+            <div className="title-box title-box--center">
+              <h1>What is it?</h1>
+              <div className="features-02__item_box">
+                <p>
+                  Infinite Climbing is a an Augmented Reality app for your
+                  phone. <br />
+                  <br />
+                  You start the app and put it into your AR cardboard headset.{" "}
+                </p>
+                <img
+                  alt="img"
+                  className=""
+                  src="img/other/aryzonimage.jpg"
+                  style={{ "max-width": "500px", height: "300px" }}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="container">
+            <ul className="features-02__items">
+              <li className="features-02__item">
+                <div className="features-02__item_box">
+                  <img
+                    alt="img"
+                    className=""
+                    src="img/other/collectgif.gif"
+                    style={{ "max-width": "500px", height: "300px" }}
+                  />
+                </div>
+              </li>
+              <li className="features-02__item">
+                <div className="features-02__item_box">
+                  <p>
+                    When you start, red & green cubes start to appear and come
+                    towards you on a digital layer that blends into the real
+                    world. <br />
+                    <br />
+                    You get points by moving your head towards where the green
+                    cubes appear & you lose points if you don't manage to avoid
+                    the red cubes.
+                    <br />
+                    <br />
+                    This requires climbing left, right, up, down & really
+                    activates your muscles in the upper body. <br />
+                    <br />
+                    Challenge yourself with harder levels & see the progress you
+                    have made since you started using the app.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
         {/* <!-- ===== END OF: Header 39-->
 <!-- START OF: Features 2 =====-->
